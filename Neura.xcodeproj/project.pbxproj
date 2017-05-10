@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B63E6082E6D91D9BB8B2E55 /* Pods_Neura.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC542EE6F1D1DDAE22C354C0 /* Pods_Neura.framework */; };
+		A62CC7B11EC3D687006A7803 /* ExtAndConv.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62CC7B01EC3D687006A7803 /* ExtAndConv.swift */; };
+		A62CC7B31EC3D690006A7803 /* NeuraBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = A62CC7B21EC3D690006A7803 /* NeuraBtn.swift */; };
+		A62CC7B71EC3D6B1006A7803 /* ObjCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A62CC7B61EC3D6B1006A7803 /* ObjCViewController.m */; };
+		A67715351EC3C1C8008DE712 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67715341EC3C1C8008DE712 /* AppDelegate.swift */; };
+		A67715371EC3C1C8008DE712 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A67715361EC3C1C8008DE712 /* ViewController.swift */; };
+		A677153A1EC3C1C8008DE712 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A67715381EC3C1C8008DE712 /* Main.storyboard */; };
+		A677153C1EC3C1C8008DE712 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A677153B1EC3C1C8008DE712 /* Assets.xcassets */; };
+		A677153F1EC3C1C8008DE712 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A677153D1EC3C1C8008DE712 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B13F1D22DCD7FFAE3BF30D9 /* Pods-Neura.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neura.release.xcconfig"; path = "Pods/Target Support Files/Pods-Neura/Pods-Neura.release.xcconfig"; sourceTree = "<group>"; };
+		A62CC7B01EC3D687006A7803 /* ExtAndConv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtAndConv.swift; sourceTree = "<group>"; };
+		A62CC7B21EC3D690006A7803 /* NeuraBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NeuraBtn.swift; sourceTree = "<group>"; };
+		A62CC7B41EC3D699006A7803 /* NeuraSample-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NeuraSample-Bridging-Header.h"; sourceTree = "<group>"; };
+		A62CC7B51EC3D6A4006A7803 /* ObjCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ObjCViewController.h; sourceTree = "<group>"; };
+		A62CC7B61EC3D6B1006A7803 /* ObjCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjCViewController.m; sourceTree = "<group>"; };
+		A67715311EC3C1C8008DE712 /* Neura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Neura.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A67715341EC3C1C8008DE712 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A67715361EC3C1C8008DE712 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A67715391EC3C1C8008DE712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A677153B1EC3C1C8008DE712 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A677153E1EC3C1C8008DE712 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A67715401EC3C1C8008DE712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC542EE6F1D1DDAE22C354C0 /* Pods_Neura.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Neura.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB17E9A411AE69C00E79A73A /* Pods-Neura.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Neura.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Neura/Pods-Neura.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A677152E1EC3C1C8008DE712 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B63E6082E6D91D9BB8B2E55 /* Pods_Neura.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A67715281EC3C1C8008DE712 = {
+			isa = PBXGroup;
+			children = (
+				A67715331EC3C1C8008DE712 /* Neura */,
+				A67715321EC3C1C8008DE712 /* Products */,
+				DD2C001C86A1C333F90993B9 /* Pods */,
+				F1D5D59C001A96A96446D12E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A67715321EC3C1C8008DE712 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A67715311EC3C1C8008DE712 /* Neura.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A67715331EC3C1C8008DE712 /* Neura */ = {
+			isa = PBXGroup;
+			children = (
+				A67715341EC3C1C8008DE712 /* AppDelegate.swift */,
+				A67715361EC3C1C8008DE712 /* ViewController.swift */,
+				A62CC7B41EC3D699006A7803 /* NeuraSample-Bridging-Header.h */,
+				A62CC7B61EC3D6B1006A7803 /* ObjCViewController.m */,
+				A62CC7B51EC3D6A4006A7803 /* ObjCViewController.h */,
+				A62CC7B21EC3D690006A7803 /* NeuraBtn.swift */,
+				A62CC7B01EC3D687006A7803 /* ExtAndConv.swift */,
+				A67715381EC3C1C8008DE712 /* Main.storyboard */,
+				A677153B1EC3C1C8008DE712 /* Assets.xcassets */,
+				A677153D1EC3C1C8008DE712 /* LaunchScreen.storyboard */,
+				A67715401EC3C1C8008DE712 /* Info.plist */,
+			);
+			path = Neura;
+			sourceTree = "<group>";
+		};
+		DD2C001C86A1C333F90993B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB17E9A411AE69C00E79A73A /* Pods-Neura.debug.xcconfig */,
+				3B13F1D22DCD7FFAE3BF30D9 /* Pods-Neura.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F1D5D59C001A96A96446D12E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC542EE6F1D1DDAE22C354C0 /* Pods_Neura.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A67715301EC3C1C8008DE712 /* Neura */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A67715431EC3C1C8008DE712 /* Build configuration list for PBXNativeTarget "Neura" */;
+			buildPhases = (
+				332F560531B9F14C97A30144 /* [CP] Check Pods Manifest.lock */,
+				A677152D1EC3C1C8008DE712 /* Sources */,
+				A677152E1EC3C1C8008DE712 /* Frameworks */,
+				A677152F1EC3C1C8008DE712 /* Resources */,
+				868076DD105EC30783EBCE39 /* [CP] Embed Pods Frameworks */,
+				BDC824F3C94A7AD62A6764C7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Neura;
+			productName = Neura;
+			productReference = A67715311EC3C1C8008DE712 /* Neura.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A67715291EC3C1C8008DE712 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Rivi Elfenboim";
+				TargetAttributes = {
+					A67715301EC3C1C8008DE712 = {
+						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A677152C1EC3C1C8008DE712 /* Build configuration list for PBXProject "Neura" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A67715281EC3C1C8008DE712;
+			productRefGroup = A67715321EC3C1C8008DE712 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A67715301EC3C1C8008DE712 /* Neura */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A677152F1EC3C1C8008DE712 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A677153F1EC3C1C8008DE712 /* LaunchScreen.storyboard in Resources */,
+				A677153C1EC3C1C8008DE712 /* Assets.xcassets in Resources */,
+				A677153A1EC3C1C8008DE712 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		332F560531B9F14C97A30144 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		868076DD105EC30783EBCE39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Neura/Pods-Neura-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDC824F3C94A7AD62A6764C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Neura/Pods-Neura-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A677152D1EC3C1C8008DE712 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62CC7B71EC3D6B1006A7803 /* ObjCViewController.m in Sources */,
+				A62CC7B31EC3D690006A7803 /* NeuraBtn.swift in Sources */,
+				A62CC7B11EC3D687006A7803 /* ExtAndConv.swift in Sources */,
+				A67715371EC3C1C8008DE712 /* ViewController.swift in Sources */,
+				A67715351EC3C1C8008DE712 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A67715381EC3C1C8008DE712 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A67715391EC3C1C8008DE712 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A677153D1EC3C1C8008DE712 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A677153E1EC3C1C8008DE712 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A67715411EC3C1C8008DE712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A67715421EC3C1C8008DE712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A67715441EC3C1C8008DE712 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB17E9A411AE69C00E79A73A /* Pods-Neura.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Neura/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Neura.Neura.Neura;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A67715451EC3C1C8008DE712 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B13F1D22DCD7FFAE3BF30D9 /* Pods-Neura.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = Neura/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Neura.Neura.Neura;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A677152C1EC3C1C8008DE712 /* Build configuration list for PBXProject "Neura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A67715411EC3C1C8008DE712 /* Debug */,
+				A67715421EC3C1C8008DE712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A67715431EC3C1C8008DE712 /* Build configuration list for PBXNativeTarget "Neura" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A67715441EC3C1C8008DE712 /* Debug */,
+				A67715451EC3C1C8008DE712 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A67715291EC3C1C8008DE712 /* Project object */;
+}

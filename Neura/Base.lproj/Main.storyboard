@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="4bT-O7-7ho">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="Wzv-ck-tRo">
+            <objects>
+                <navigationController id="4bT-O7-7ho" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="nDq-o5-VLd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.28235294119999998" green="0.23921568630000001" blue="0.5450980392" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="textShadowColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="nKu-uy-cfP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zX2-BZ-Whl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-722" y="80"/>
+        </scene>
+        <!--Neura-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="NauraSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ud0-31-okH" customClass="NeuraBtn" customModule="NauraSample" customModuleProvider="target">
+                                <rect key="frame" x="48" y="318.5" width="279" height="30"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="zXt-qJ-HHZ"/>
+                                </constraints>
+                                <state key="normal" title="Login Neura"/>
+                                <connections>
+                                    <action selector="loginAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BGo-4l-74J"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oJH-r0-iiO" customClass="NeuraBtn" customModule="NauraSample" customModuleProvider="target">
+                                <rect key="frame" x="48" y="356" width="279" height="30"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="see app permissions"/>
+                                <connections>
+                                    <segue destination="aMf-tW-YFc" kind="show" id="T2M-rg-Udu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="Ud0-31-okH" secondAttribute="trailing" constant="32" id="0Nu-Bm-vsv"/>
+                            <constraint firstItem="oJH-r0-iiO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2h9-rt-rvf"/>
+                            <constraint firstItem="Ud0-31-okH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6Ix-OQ-aWK"/>
+                            <constraint firstItem="Ud0-31-okH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="32" id="F1x-Qd-tXl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="oJH-r0-iiO" secondAttribute="trailing" constant="32" id="RNQ-S5-yb5"/>
+                            <constraint firstItem="Ud0-31-okH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Wfw-KB-JHz"/>
+                            <constraint firstItem="oJH-r0-iiO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="32" id="ZhS-BS-P01"/>
+                            <constraint firstItem="oJH-r0-iiO" firstAttribute="top" secondItem="Ud0-31-okH" secondAttribute="bottom" constant="7.5" id="ZoO-fC-ehL"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Neura" id="XaB-Yh-kNc"/>
+                    <connections>
+                        <outlet property="SeeAppPerBtn" destination="oJH-r0-iiO" id="3JV-3X-Av1"/>
+                        <outlet property="loginBtn" destination="Ud0-31-okH" id="cFK-wc-DDg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.59999999999999" y="79.610194902548727"/>
+        </scene>
+        <!--ObjC View Controller-->
+        <scene sceneID="39p-FV-1y0">
+            <objects>
+                <viewController storyboardIdentifier="ObjCViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="aMf-tW-YFc" customClass="ObjCViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="nwx-CC-PGt"/>
+                        <viewControllerLayoutGuide type="bottom" id="1YX-FI-6Ah"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="DFr-if-OiK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="N4B-xd-tWZ">
+                                <rect key="frame" x="16" y="64" width="343" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="m5G-q9-SYH">
+                                        <rect key="frame" x="0.0" y="28" width="343" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="m5G-q9-SYH" id="wyX-1t-JJL">
+                                            <rect key="frame" x="0.0" y="0.0" width="343" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="aMf-tW-YFc" id="y40-i5-X9H"/>
+                                    <outlet property="delegate" destination="aMf-tW-YFc" id="dba-Ut-zmG"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="N4B-xd-tWZ" firstAttribute="top" secondItem="nwx-CC-PGt" secondAttribute="bottom" id="Oae-2c-zsO"/>
+                            <constraint firstItem="1YX-FI-6Ah" firstAttribute="top" secondItem="N4B-xd-tWZ" secondAttribute="bottom" id="Yet-LQ-5wg"/>
+                            <constraint firstItem="N4B-xd-tWZ" firstAttribute="leading" secondItem="DFr-if-OiK" secondAttribute="leadingMargin" id="a2D-mA-Qgp"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="N4B-xd-tWZ" secondAttribute="trailing" id="obb-o2-C9r"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="N4B-xd-tWZ" id="PNm-ew-wzD"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xmg-SG-TGi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="834" y="80"/>
+        </scene>
+    </scenes>
+</document>
